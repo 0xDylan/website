@@ -3,19 +3,17 @@ html, body
   margin: 0
   width: 100vw
   height: 100vh
-  font-family: "Inter", "sans-serif", "Arial"
+  font-family: Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace
   position: relative
   overflow: hidden
   color: #fff
-  background-color: #222222
-  background-attachment: fixed
   background-size: cover
-  background-image: url("/img/gradient.webp")
+  background-image: url(../img/background-dark.jpg)
 
 a[href]
   color: rgba(0,0,0,0.0)
 
-/* some css below was taken from kxtz's website
+/* some css below was taken from darkn's website [kxtz] i hope ur ok with it
 
 .alt
   display: flex
@@ -34,25 +32,19 @@ a[href]
   text-align: center
 
 /* ty kxtz for letting me do that, ty!!
+/* thanks darkn ig
 
-.sakamato
+.pfp
   width: auto
   height: 150px
   margin-bottom: -15px
   vertical-align: middle
 
-.mobile-header-height, .mobile-header-height-404
-  letter-spacing: -2.4px
-  margin-bottom: -6px
-  margin-top: 18px
-  font-kerning: none
-  font-size: 33px
-
-.header-height, .header-height-404
+.name, .name-404
   letter-spacing: -0.5px
   margin-bottom: 10px
 
-.text-height, .text-height-404
+.nameDesc, .nameDesc-404
   margin-top: 10px
   line-height: 1.2
 
@@ -74,18 +66,18 @@ a[href]
   animation: fadeIn 1.5s
   animation-fill-mode: forwards
 
-.sakamato, .header-height, .text-height, .mobile-header-height, .text-height-404, .header-height-404, .mobile-header-height-404
+.pfp, .name, .nameDesc, .nameDesc-404, .name-404
   opacity: 0
   animation: fadeIn 1.2s
   animation-fill-mode: forwards
 
-.sakamato, .header-height-404, .mobile-header-height-404
+.pfp, .name-404, .mobile-name-404
   animation-delay: 1.0s
 
-.header-height, .mobile-header-height, .text-height-404
+.name, .mobile-name, .nameDesc-404
   animation-delay: 1.35s
 
-.text-height
+.nameDesc
   animation-delay: 1.70s
 
 @mixin icon-style($animation-delay)
