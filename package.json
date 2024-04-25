@@ -19,7 +19,7 @@
     "@fontsource/inter": "^5.0.18",
     "@mui/joy": "^5.0.0-beta.36",
     "@tsparticles/engine": "^3.3.0",
-    "astro": "^4.6.3",
+    "astro": "^4.7.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
