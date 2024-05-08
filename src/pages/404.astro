@@ -1,34 +1,42 @@
 ---
-import "@fontsource/inter";
-import "../../public/sass/style.sass";
-import { Button } from '@mui/joy'
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import LinkButton from "@components/LinkButton.astro";
 ---
 
+<Layout title={`404 Not Found | ${SITE.title}`}>
+  <Header />
 
-<!-- Massive thanks to Darkn for this! -->
-
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <title>dylan ~ 404</title>
-
-    <meta property="og:title" content="dylan ~ 404"/>
-    <meta property="og:description" content="You shall not pass!"/>
-    <meta property="og:url" content="https://shxrk.dev"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://shxrk.dev/img/pfp-new.png"/>
-    <meta property="og:image:width" content="512"/>
-    <meta property="og:image:height" content="512"/>
-
-  </head>
-  <body class="alt">
-    <div class="alt-main">
-      <h1 class="name-404">Go away!</h1>
-      <p class="nameDesc-404">You aren't supposed to be here... Go back home!</p>
-      <Button component="a" href="/" size="sm" variant="soft">Go Home</Button>
+  <main id="main-content">
+    <div class="not-found-wrapper">
+      <h1 aria-label="404 Not Found">404</h1>
+      <span aria-hidden="true">¯\_(ツ)_/¯</span>
+      <p>Blog / Page Never Existed or was Removed</p>
+      <LinkButton
+        href="/"
+        className="my-6 text-lg underline decoration-dashed underline-offset-8"
+      >
+        Go back home
+      </LinkButton>
     </div>
-  
-  <script src="../../public/ts/index.ts"></script>
+  </main>
 
-  </body>
-</html>
+  <Footer />
+</Layout>
+
+<style>
+  #main-content {
+    @apply mx-auto flex max-w-3xl flex-1 items-center justify-center;
+  }
+  .not-found-wrapper {
+    @apply mb-14 flex flex-col items-center justify-center;
+  }
+  .not-found-wrapper h1 {
+    @apply text-9xl font-bold text-skin-accent;
+  }
+  .not-found-wrapper p {
+    @apply mt-4 text-2xl sm:text-3xl;
+  }
+</style>
