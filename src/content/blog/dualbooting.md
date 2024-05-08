@@ -69,6 +69,6 @@ to setup at first.
 I kept on having Windows take over boot priority over rEFInd, then Linux took boot priority. Now I have it
 working somewhat correctly (after about 5 tutorials).
 
-This tool doesn't have the best documentation compared to other tools, so if you get an issue, you're all on your own.
+This tool doesn't have the best documentation compared to other tools, so if you have an issue, you're all on your own (for the most part).
 
 **_(This post is unfinished and will be updated sometime in the future.)_**
