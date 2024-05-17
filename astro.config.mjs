@@ -12,14 +12,8 @@ export default defineConfig({
     integrations: [react(), partytown(), sitemap()],
 
     redirects: {
-        '/old/projects': {
-            status: 302,
-            destination: '/old_projects',
-        },
-        'old/tools/': {
-            status: 302,
-            destination: '/old_tools',
-        },
+        '/old/projects': { status: 302, destination: '/old_projects' },
+        'old/tools/': { status: 302, destination: '/old_tools' },
     },
     
     output: 'server',
