@@ -1,4 +1,13 @@
-# Website
+<div align="center">
+  <h1>🌐: website</h1>
+</div>
 
-This is the 3rd version of my website [shxrk.dev](https://shxrk.dev). This will be updated as more versions come out.
-Massive thanks to [Darkn](https://osu.bio) and [wave](https://github.com/13waves) (sorry for our pasts)
+<div align="center"> 
+<p>my website with info about me!</p>
+</div>
+
+---
+
+<div align="center">
+<p>this would not be possible without <a href="https://darkn.bio">darkn</a> and <a href="https://github.com/13waves">hell0u / wavee</a></p>
+</div>
