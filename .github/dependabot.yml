@@ -5,5 +5,3 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-  assignees:
-    - "0xDylan"
