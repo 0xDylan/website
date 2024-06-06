@@ -63,12 +63,14 @@ Dualbooting was a very challenging switch to make (and still is) for me. I have 
 booting with EFI and swapping between them (bootloader / bootmanager).
 
 The tool that I have used is [rEFInd](https://www.rodsbooks.com/refind/).
-It is a very nice and easy-to-use tool. Not so easy-to-setup though (_budum bum pshhh_). Seriously though, it was very hard
+It is a very nice and easy-to-use tool. Not so easy-to-setup though (_ba dum bum pshhh_). Seriously though, it was very hard
 to setup at first.
 
 I kept on having Windows take over boot priority over rEFInd, then Linux took boot priority. Now I have it
 working somewhat correctly (after about 5 tutorials).
 
-This tool doesn't have the best documentation compared to other tools, so if you have an issue, you're all on your own (for the most part).
+This tool doesn't have the best documentation (for issues) compared to other tools, so if you have an issue, you're all on your own (for the most part).
+
+
 
 **_(This post is unfinished and will be updated sometime in the future.)_**
