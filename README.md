@@ -9,5 +9,5 @@
 ---
 
 <div align="center">
-<p>this would not be possible without <a href="https://darkn.bio">darkn</a> and <a href="https://github.com/13waves">hell0u / wavee</a></p>
+<p>this would not be possible without <a href="https://darkn.bio">darkn</a> and <a href="https://github.com/13waves">hell0u / wavee</a>, massive thanks to them! <3</p>
 </div>
