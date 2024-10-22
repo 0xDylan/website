@@ -1,5 +1,4 @@
-.github/
-public/
-.vscode/
-astro.config.mjs
-prettierrc
+# ignore stufsf
+**/node_modules
+package-lock.json
+.prettierrc
