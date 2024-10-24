@@ -1,5 +1,5 @@
 # generate me a good dependabot.yml file for pnpm that updates whenever it can please
-# https:#docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+# https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
 
 # the following was literally copilot going in an endless loop
 
@@ -96,6 +96,7 @@
 # it is something that is comprehended or grasped
 # so github copilot.
 # why did you just talk to yourself in an endless loop?
+# because i wanted to see how far you let it go
 # dawg why i literally asked you for a dependabot config and u went in an endless loop
 # my bad, here is the dependabot config file
 # thanks

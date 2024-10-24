@@ -1,6 +1,6 @@
 @use "sass:list"
 
-// Satoshi font I really liked from guns.lol
+/* Below contains the Font imports for the website
 @font-face
   font-family: 'Satoshi-Regular'
   src: url('/fonts/Satoshi-Regular.woff') format('woff')
@@ -15,6 +15,8 @@
   font-display: swap
   font-style: normal
 
+/* Below contains the default rules for the different tags and elements
+
 html, body
   font-family: 'Satoshi-Regular'
   background: #060606
@@ -27,6 +29,30 @@ html, body
   position: relative
   overflow: hidden
 
+/* Below contains the code for the top Navbar
+
+.navbar
+  padding: 5px
+
+  border-radius: 20px
+  background: #111111
+  position: fixed
+  top: 15px
+  width: 95%
+
+.title
+  padding-left: 20px
+  font-family: 'Satoshi-Bold'
+  text-shadow: 0 0 20px #fff
+
+.blog
+  padding-right: 20px
+  font-family: 'Satoshi-Bold'
+  text-align: right
+  text-shadow: 0 0 0px #000
+
+/* Below contains the code for the main Bio area
+
 .bio
   display: flex
   overflow: hidden
@@ -34,13 +60,23 @@ html, body
   align-items: center
   min-height: 100vh
 
-
 .bio-main
   border-radius: 20px
   background: #111111
   width: 37.5rem
   height: 121px
   padding: 20px
+  padding-bottom: 55px
+
+.bio-socials
+  text-align: center
+  opacity: rgb(0,0,0,0.0)
+  transition: transform 0.3s ease-in-out
+
+.bio-socials svg
+  transition: transform 0.3s ease-in-out
+.bio-socials svg:hover
+  transform: scale(1.1)
 
 .name
   margin: 0

@@ -1,5 +1,12 @@
 ---
 import "../../public/sass/styles.sass";
+
+// top navbar
+import Navbar from "../components/Navbar.astro"
+
+// logos
+import DiscordLogo from "../components/logos/DiscordLogo.astro";
+import GithubLogo from "../components/logos/GithubLogo.astro";
 ---
 
 <html lang="en-us">
@@ -14,13 +21,17 @@ import "../../public/sass/styles.sass";
 	  </head>
 
 	  <body class="bio">
+
+		<Navbar />
+
 		<div class="bio-main">
 			<p class="name">dylan</p>
 			 <p class="desc">i'm dylan and i like hacking and coding</p>
-		</div>
 
-		<div class="bio-socials">
-			
+			 <div class="bio-socials">
+				<DiscordLogo class="discord" href="https://discord.gg/sirex" />
+				<GithubLogo class="github" href="https://github.com/0xDylan" />
+			</div>
 		</div>
 
 		<script src="/ts/app.ts" is:inline></script>
