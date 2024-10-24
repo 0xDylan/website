@@ -1,0 +1,48 @@
+@use "sass:list"
+
+// Satoshi font I really liked from guns.lol
+@font-face
+  font-family: 'Satoshi-Regular'
+  src: url('/fonts/Satoshi-Regular.woff') format('woff')
+  font-weight: 400
+  font-display: swap
+  font-style: normal
+
+@font-face
+  font-family: 'Satoshi-Bold'
+  src: url('/fonts/Satoshi-Bold.woff') format('woff')
+  font-weight: 700
+  font-display: swap
+  font-style: normal
+
+html, body
+  font-family: 'Satoshi-Regular'
+  background: #060606
+  color: #FFFFFF
+  display: flex
+  padding: 0
+  margin: 0
+  width: 100vw
+  height: 100vh
+  position: relative
+  overflow: hidden
+
+.bio
+  display: flex
+  overflow: hidden
+  justify-content: center
+  align-items: center
+  min-height: 100vh
+
+.bio-main
+  border-radius: 20px
+  background: #111111
+  padding: 20px
+  width: 37.5rem
+  height: 121px
+
+.name
+  font-size: 35px
+  font-family: 'Satoshi-Bold'
+  text-align: center
+  
