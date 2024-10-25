@@ -14,3 +14,6 @@
 - Added a centered description
 - Added social media icons that redirect to those pages
 - Added a cool navbar
+### What else is different from 4.0.0-beta.1
+- No other shadow changes have been made.
+- Website is almost finished and ready for Production, just need to test a little more before it's ready!
