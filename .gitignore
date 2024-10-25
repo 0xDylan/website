@@ -7,9 +7,6 @@ dist/
 # dependencies
 node_modules/
 
-# vscode outputs
-.vscode/
-
 # logs
 npm-debug.log*
 yarn-debug.log*
@@ -25,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# for some reason arc browser sends its debug.log files here so
+debug.log*

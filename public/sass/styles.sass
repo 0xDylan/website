@@ -1,0 +1,96 @@
+@use "sass:list"
+
+/* Below contains the Font imports for the website
+@font-face
+  font-family: 'Satoshi-Regular'
+  src: url('/fonts/Satoshi-Regular.woff') format('woff')
+  font-weight: 400
+  font-display: swap
+  font-style: normal
+
+@font-face
+  font-family: 'Satoshi-Bold'
+  src: url('/fonts/Satoshi-Bold.woff') format('woff')
+  font-weight: 700
+  font-display: swap
+  font-style: normal
+
+/* Below contains the default rules for the different tags and elements
+
+html, body
+  font-family: 'Satoshi-Regular'
+  background: #060606
+  color: #FFFFFF
+  display: flex
+  padding: 0
+  margin: 0
+  width: 100vw
+  height: 100vh
+  position: relative
+  overflow: hidden
+
+/* Below contains the code for the top Navbar
+
+.navbar
+  padding: 5px
+
+  border-radius: 20px
+  background: #111111
+  position: fixed
+  top: 15px
+  width: 95%
+
+.title
+  padding-left: 20px
+  font-family: 'Satoshi-Bold'
+  text-shadow: 0 0 20px #fff
+
+.blog
+  padding-right: 20px
+  font-family: 'Satoshi-Bold'
+  float: right
+  text-shadow: 0 0 0px #000
+
+.xyz
+  font-family: 'Satoshi-Bold'
+  float: right
+  text-shadow: 0 0 0px #000
+
+
+/* Below contains the code for the main Bio area
+
+.bio
+  display: flex
+  overflow: hidden
+  justify-content: center
+  align-items: center
+  min-height: 100vh
+
+.bio-main
+  border-radius: 20px
+  background: #111111
+  width: 37.5rem
+  height: 121px
+  padding: 20px
+  padding-bottom: 55px
+
+.bio-socials
+  text-align: center
+  opacity: rgb(0,0,0,0.0)
+  transition: transform 0.2s ease-in-out
+
+.bio-socials svg
+  transition: transform 0.2s ease-in-out
+.bio-socials svg:hover
+  transform: scale(1.2)
+
+.name
+  margin: 0
+  font-size: 45px
+  font-family: 'Satoshi-Bold'
+  text-align: center
+  text-shadow: 0 0 20px #fff
+  
+.desc
+  text-align: center
+  font-size: 18px
