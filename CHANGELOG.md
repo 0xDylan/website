@@ -3,7 +3,7 @@
 ## 4.0.0-beta.1
 - Completely rebuild the repo from scractch using `pnpm create astro@latest`
 - Add a guns.lol style theme to the website
-### What else is different from 3.0.0:
+### What else is different from 3.0.0
 - We now use `pnpm` (primarily) instead of `npm` as it works faster and I like it more
 - Astro is updated to the latest version
 - Website is completely 100% made by me without using any code from other users (thanks very much [Darkn](https://darkn.bio) and [wavee](https://wavee.space))
@@ -31,3 +31,8 @@
 ### What else is different from 4.0.0-beta.3
 - No other shadow changes have been made.
 - I am planning to make a documentation eventually though
+
+## 4.1.0
+- Added awesomesauce snowflakes to the background because they are cool
+### What else is different from 4.0.0
+- No other shadow changes have been made.
