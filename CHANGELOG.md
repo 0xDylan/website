@@ -17,3 +17,10 @@
 ### What else is different from 4.0.0-beta.1
 - No other shadow changes have been made.
 - Website is almost finished and ready for Production, just need to test a little more before it's ready!
+
+## 4.0.0-beta.3
+- Fixed Navbar big hitbox issue
+- Added target="_blank" to all socials to open them in a new tab
+### What else is different from 4.0.0-beta.2
+- No other shadow changes have been made.
+- This is the FINAL beta build before production.
