@@ -24,3 +24,10 @@
 ### What else is different from 4.0.0-beta.2
 - No other shadow changes have been made.
 - This is the FINAL beta build before production.
+
+# 4.0.0
+- Fixed final issues from the betas on deployment such as the color rule
+- Fixed merge conflicts
+### What else is different from 4.0.0-beta.3
+- No other shadow changes have been made.
+- I am planning to make a documentation eventually though
