@@ -4,6 +4,9 @@ import "../../public/sass/styles.sass";
 // top navbar
 import Navbar from "../components/Navbar.astro"
 
+// snowflakes
+import Snowflakes from "../components/Snowflakes.astro";
+
 // logos
 import DiscordLogo from "../components/logos/DiscordLogo.astro";
 import GithubLogo from "../components/logos/GithubLogo.astro";
@@ -38,9 +41,11 @@ import SpotifyLogo from "../components/logos/SpotifyLogo.astro";
 				<SteamLogo link="https://steamcommunity.com/id/hawaiiandyl/" />
 				<SpotifyLogo link="https://open.spotify.com/user/ip24s6xdgak5k5rjnuqc59qo4?si=a83e1c6a13c94d88" />
 			</div>
+
 		</div>
 
-		<script src="/ts/app.ts" is:inline></script>
+		<Snowflakes />
+
 	  </body>
 </html>
 
