@@ -1,16 +1,13 @@
 // github copilot op?
 
 addEventListener('keypress', (event) => {
-  const key = event.key;
-  const word = 'pico';
-  let keys = [];
+  const key = event.key
+  const word = 'pico'
+  let keys = []
 
-  keys.push(key);
+  keys.push(key)
 
   if (keys.join('') === word) {
-    window.location.href = 'https://shxrk.xyz';
+    window.location.href = 'https://shxrk.xyz'
   }
-});
-
-
-
+})
