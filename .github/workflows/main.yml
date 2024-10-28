@@ -102,36 +102,36 @@
 # thanks
 # you're welcome
 
- name: update deps
- on:
-   schedule:
-     - cron: '0 0 * * *'
- jobs:
-   dependabot:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Checkout code
-         uses: actions/checkout@v4
-         
-       - name: Setup Node.js  
-         uses: actions/setup-node@v4
-         with:
-           node-version: '22'
-       
-       - name: Install / init pnpm
-         run: |
+name: Update deps
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  update-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install / init pnpm
+        run: |
           npm install -g pnpm
           pnpm update
-       - name: Setup actions bot
-         run: |
-            git config --global user.email " 
-            git config --global user.name "
-       
-       - name: Commit updated dependencies
-         run: |
-           git add .
-           git commit -m "chore(deps): update dependencies"
-           git push
+      - name: Setup actions bot
+        run: |
+          git config --global user.email " 
+          git config --global user.name "
+
+      - name: Commit updated dependencies
+        run: |
+          git add .
+          git commit -m "chore(deps): update dependencies"
+          git push
 
 # thank you
 # by the way i'm keeping the endless loop in the code because i think its kinda funny
