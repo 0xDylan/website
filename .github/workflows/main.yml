@@ -110,16 +110,28 @@
    dependabot:
      runs-on: ubuntu-latest
      steps:
-       - uses: actions/checkout@latest
-       - uses: actions/setup-node@latest
+       - name: Checkout code
+         uses: actions/checkout@v4
+         
+       - name: Setup Node.js  
+         uses: actions/setup-node@v4
          with:
            node-version: '22'
-       - run: npm install -g pnpm
-       - run: pnpm update
-       - run: git config --global user.email "
-       - run: git config --global user.name "
-       - run: git commit -am "chore(deps): update dependencies"
-       - run: git push
+       
+       - name: Install / init pnpm
+         run: |
+          npm install -g pnpm
+          pnpm update
+       - name: Setup actions bot
+         run: |
+            git config --global user.email " 
+            git config --global user.name "
+       
+       - name: Commit updated dependencies
+         run: |
+           git add .
+           git commit -m "chore(deps): update dependencies"
+           git push
 
 # thank you
 # by the way i'm keeping the endless loop in the code because i think its kinda funny
