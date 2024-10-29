@@ -1,53 +1,51 @@
 # Changelog for shxrk.dev / shxrk.xyz Version 4
 
 ## 4.0.0-beta.1
-
 - Completely rebuild the repo from scractch using `pnpm create astro@latest`
 - Add a guns.lol style theme to the website
 
 ### What else is different from 3.0.0
-
 - We now use `pnpm` (primarily) instead of `npm` as it works faster and I like it more
 - Astro is updated to the latest version
 - Website is completely 100% made by me without using any code from other users (thanks very much [Darkn](https://darkn.bio) and [wavee](https://wavee.space))
 - Public betas will now be automatically deployed to [shxrk.xyz](https://shxrk.xyz) before they hit Production on [shxrk.dev](https://shxrk.dev)
 
 ## 4.0.0-beta.2
-
-- Add glow around my name
-- Added a centered description
-- Added social media icons that redirect to those pages
-- Added a cool navbar
+- Add glow around my name [a93b6e9](https://github.com/0xDylan/website/commit/a93b6e9731c709879e0a7ce024182b3b18e539e1)
+- Added a centered description [a93b6e9](https://github.com/0xDylan/website/commit/a93b6e9731c709879e0a7ce024182b3b18e539e1)
+- Added social media icons that redirect to those pages [6c7cef8](https://github.com/0xDylan/website/commit/6c7cef8b54674a1e1486458366b1f5a38a6ae192) and [72e7614](https://github.com/0xDylan/website/commit/72e7614c0a42660e0b2c21cc1d9ef3e0af88103e)
+- Added a cool navbar [6c7cef8](https://github.com/0xDylan/website/commit/6c7cef8b54674a1e1486458366b1f5a38a6ae192) and [72e7614](https://github.com/0xDylan/website/commit/72e7614c0a42660e0b2c21cc1d9ef3e0af88103e)
 
 ### What else is different from 4.0.0-beta.1
-
 - No other shadow changes have been made.
 - Website is almost finished and ready for Production, just need to test a little more before it's ready!
 
 ## 4.0.0-beta.3
-
-- Fixed Navbar big hitbox issue
-- Added target="\_blank" to all socials to open them in a new tab
+- Fixed Navbar big hitbox issue [cc9cd90](https://github.com/0xDylan/website/commit/cc9cd90ade7e4681f214b4409c847bbe6cb7833e)
+- Added target="\_blank" to all socials to open them in a new tab [cc9cd90](https://github.com/0xDylan/website/commit/cc9cd90ade7e4681f214b4409c847bbe6cb7833e)
 
 ### What else is different from 4.0.0-beta.2
-
 - No other shadow changes have been made.
 - This is the FINAL beta build before production.
 
 # 4.0.0
-
-- Fixed final issues from the betas on deployment such as the color rule
-- Fixed merge conflicts
+- Fixed final issues from the betas on deployment such as the color rule [c4aa6b4](https://github.com/0xDylan/website/commit/c4aa6b43d2bec7ef10250b0c43852078b0c4bd33)
+- Fixed merge conflicts (couldn't find a good commit)
 
 ### What else is different from 4.0.0-beta.3
-
 - No other shadow changes have been made.
 - I am planning to make a documentation eventually though
 
 ## 4.1.0
-
-- Added awesomesauce snowflakes to the background because they are cool
+- Added awesomesauce snowflakes to the background because they are cool [6a1f24d](https://github.com/0xDylan/website/commit/6a1f24db21c7993cf87e823ee8ab0127cbaf356d) and [74294a2
+](https://github.com/0xDylan/website/commit/74294a25ff7ebc15a7a326657449824d51eac42a)
 
 ### What else is different from 4.0.0
-
 - No other shadow changes have been made.
+
+## 4.1.1
+- Ensured that the icon colors would ALWAYS be white [4dada99](https://github.com/0xDylan/website/commit/4dada99531befad3a7fbf26ef093b15555cce3fa)
+
+### What else is different from 4.1.0
+- I added all of the commit id's to the changelog
+- Fixed the github-actions dependency update bot [a9a103d](https://github.com/0xDylan/website/commit/a9a103dad15337138bea353170d12551e46dcdfd)
