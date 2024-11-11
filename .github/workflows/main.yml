@@ -104,8 +104,6 @@
 
 name: Update deps
 on:
-  push:
-    branches: [ "main" ]
   schedule:
     - cron: '0 16 * * *' # this is 12:00pm for my time (est)
 jobs:
