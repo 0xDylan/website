@@ -49,3 +49,11 @@
 ### What else is different from 4.1.0
 - I added all of the commit id's to the changelog
 - Fixed the github-actions dependency update bot ([a9a103d](https://github.com/0xDylan/website/commit/a9a103dad15337138bea353170d12551e46dcdfd) and [bf2db2b](https://github.com/0xDylan/website/commit/bf2db2bf87e9479c9835cff83142415ca44fd22c))
+
+## 4.2.0
+- Added a monkeytype logo along with all of the other logos I have
+- Also removed my age because it was kinda awkwardly worded [3bc7bd0](https://github.com/0xDylan/website/commit/3bc7bd019c3e4d645f325dbbd07597951e2ebfbc)
+
+### What else is different from 4.1.1
+- I changed the github-actions bot yet again so it won't check dependencies when I commit to the repo ([0613dd5](https://github.com/0xDylan/website/commit/0613dd56b0d2d09fdf001b05a6ff33bb1dfd1da2))
+
