@@ -37,8 +37,7 @@
 - I am planning to make a documentation eventually though
 
 ## 4.1.0
-- Added awesomesauce snowflakes to the background because they are cool ([6a1f24d](https://github.com/0xDylan/website/commit/6a1f24db21c7993cf87e823ee8ab0127cbaf356d) and [74294a2
-](https://github.com/0xDylan/website/commit/74294a25ff7ebc15a7a326657449824d51eac42a))
+- Added awesomesauce snowflakes to the background because they are cool ([6a1f24d](https://github.com/0xDylan/website/commit/6a1f24db21c7993cf87e823ee8ab0127cbaf356d) and [74294a2](https://github.com/0xDylan/website/commit/74294a25ff7ebc15a7a326657449824d51eac42a))
 
 ### What else is different from 4.0.0
 - No other shadow changes have been made.
@@ -52,7 +51,7 @@
 
 ## 4.2.0
 - Added a monkeytype logo along with all of the other logos I have
-- Also removed my age because it was kinda awkwardly worded [3bc7bd0](https://github.com/0xDylan/website/commit/3bc7bd019c3e4d645f325dbbd07597951e2ebfbc)
+- Also removed my age because it was kinda awkwardly worded ([3bc7bd0](https://github.com/0xDylan/website/commit/3bc7bd019c3e4d645f325dbbd07597951e2ebfbc))
 
 ### What else is different from 4.1.1
 - I changed the github-actions bot yet again so it won't check dependencies when I commit to the repo ([0613dd5](https://github.com/0xDylan/website/commit/0613dd56b0d2d09fdf001b05a6ff33bb1dfd1da2))
