@@ -56,3 +56,9 @@
 ### What else is different from 4.1.1
 - I changed the github-actions bot yet again so it won't check dependencies when I commit to the repo ([0613dd5](https://github.com/0xDylan/website/commit/0613dd56b0d2d09fdf001b05a6ff33bb1dfd1da2))
 
+## 4.2.1
+- Fixed a link query thingy ([9ebaf8d])[https://github.com/0xDylan/website/commit/9ebaf8dc66eeddbcf21e9cbc6e80b0d96c87ffcf]
+
+### What else is different from 4.2.0
+- Bumped version ([8777046])[https://github.com/0xDylan/website/commit/877704683d7019d15bf0ceabf80b63659208d77f]
+- No other shadow changes have been made.
