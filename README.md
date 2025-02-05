@@ -6,7 +6,8 @@
 This website was made for easy reproduction and for others to use aswell!
 </div>
 
-> [!WARNING] Feel free to fork this or use the code, 
+> [!WARNING] 
+> Feel free to fork this or use the code, 
 > just please make sure to give credits for 
 > the parts of code that you used, and also make 
 > sure to keep the license the same.
