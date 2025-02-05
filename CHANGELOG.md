@@ -62,3 +62,10 @@
 ### What else is different from 4.2.0
 - Bumped version ([8777046])[https://github.com/0xDylan/website/commit/877704683d7019d15bf0ceabf80b63659208d77f]
 - No other shadow changes have been made.
+
+## 4.2.2
+- Removed the shxrk.xyz link ([8428443])[https://github.com/0xDylan/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468]
+
+### What else is different from 4.2.1
+- Bumped version ([8428443])[https://github.com/0xDylan/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468]
+- No other shadow changes have been made.
