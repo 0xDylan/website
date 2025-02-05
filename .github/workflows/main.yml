@@ -130,7 +130,7 @@ jobs:
       - name: Commit updated dependencies
         run: |
           git add .
-          git commit -m "chore(deps): update dependencies"
+          git commit -m "chore: update dependencies"
           git push
 
 # thank you
