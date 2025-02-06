@@ -57,23 +57,23 @@
 - I changed the github-actions bot yet again so it won't check dependencies when I commit to the repo ([0613dd5](https://github.com/rearrangement/website/commit/0613dd56b0d2d09fdf001b05a6ff33bb1dfd1da2))
 
 ## 4.2.1
-- Fixed a link query thingy ([9ebaf8d])[https://github.com/rearrangement/website/commit/9ebaf8dc66eeddbcf21e9cbc6e80b0d96c87ffcf]
+- Fixed a link query thingy ([9ebaf8d](https://github.com/rearrangement/website/commit/9ebaf8dc66eeddbcf21e9cbc6e80b0d96c87ffcf))
 
 ### What else is different from 4.2.0
-- Bumped version ([8777046])[https://github.com/rearrangement/website/commit/877704683d7019d15bf0ceabf80b63659208d77f]
+- Bumped version ([8777046](https://github.com/rearrangement/website/commit/877704683d7019d15bf0ceabf80b63659208d77f))
 - No other shadow changes have been made.
 
 ## 4.2.2
-- Removed the shxrk.xyz link ([8428443])[https://github.com/rearrangement/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468]
+- Removed the shxrk.xyz link ([8428443](https://github.com/rearrangement/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468))
 
 ### What else is different from 4.2.1
-- Bumped version ([8428443])[https://github.com/rearrangement/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468]
+- Bumped version ([8428443](https://github.com/rearrangement/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468))
 - No other shadow changes have been made.
 
 ## 4.2.3
-- Added glow to the blog link in the Navbar ([05809f0])[https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4]
-- Removed the .xyz style because it isn't present anymore ([05809f0])[https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4]
+- Added glow to the blog link in the Navbar ([05809f0](https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4))
+- Removed the .xyz style because it isn't present anymore ([05809f0](https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4))
 
 ### What else is different from 4.2.2
-- Bumped version ([05809f0])[https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4]
+- Bumped version ([05809f0](https://github.com/rearrangement/website/commit/05809f04148be071e435c1476b3e9e252379c3e4))
 - No other shadow changes have been made.
