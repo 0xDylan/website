@@ -69,3 +69,11 @@
 ### What else is different from 4.2.1
 - Bumped version ([8428443])[https://github.com/0xDylan/website/commit/8428443fea467adfa9925ebbd9f3e60e7dd84468]
 - No other shadow changes have been made.
+
+## 4.2.3
+- Added glow to the blog link in the Navbar
+- Removed the .xyz style because it isn't present anymore
+
+### What else is different from 4.2.2
+- Bumped version
+- No other shadow changes have been made.
