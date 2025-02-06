@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-0xDylan/website
+rearrangement/website
 </h1>
 
 This website was made for easy reproduction and for others to use aswell!
